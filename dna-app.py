@@ -37,8 +37,7 @@ sequence_input = ">DNA Query example\nGAACACGTGGAGGCAAACAGGAAGGTGAAGAAGAACTTATCC
 sequence = st.text_area("Sequence input", sequence_input, height=250)
 sequence = sequence.splitlines()
 sequence = sequence[1:] # Skips the sequence name (first line)
-sequence = ' '.join(sequence) # Concatenates list to string
-
+sequence = '\n'.join(sequence) # Concatenates list to string
 st.write("""
 ***
 """)
@@ -90,7 +89,7 @@ p = alt.Chart(df).mark_bar().encode(
     y='count'
 )
 p = p.properties(
-    width=alt.Step(80)  # controls width of bar.
+    width=alt.Step(60)  # controls width of bar.
 )
 st.write(p)
 

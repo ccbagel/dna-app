@@ -1,4 +1,4 @@
-# Bioinformatics-dna-project
+# DNA-sequencing-app
 DNA nucleotide count 
 
 In this project, I'm using Python to count the nucleotide composition of DNA sequence query as part of a data science project.

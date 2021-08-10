@@ -98,6 +98,6 @@ st.write("""
 ***
 
 
-Made by: Hasan Ahmed. You can get random DNA sequences to test on my app from. Note: they'll need to be in all caps to work. https://www.bioinformatics.org/sms2/random_dna.html
+You can get random DNA sequences to test on my app from. Note: they'll need to be in all caps to work [here](https://www.bioinformatics.org/sms2/random_dna.html). Made by [Hasan Ahmed](https://hahmed.vercel.app/)
 """)
 
